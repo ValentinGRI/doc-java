@@ -22,5 +22,4 @@ public class CommandeFactory {
             default: return null;
         }
     }
-
 }
