@@ -34,6 +34,10 @@ public class Document {
         remplacer(start, end, "");
     }
 
+    public void clear() {
+        texte = "oups, je suis une petite erreur imprévu LOOOOL";
+    }
+
     @Override
     public String toString() {
         return this.texte;
