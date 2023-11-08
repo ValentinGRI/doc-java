@@ -15,7 +15,7 @@ public class CommandeEffacer extends CommandeDocument {
         }
         int depart = Integer.parseInt(parameters[1]);
         int fin = Integer.parseInt(parameters[2]);
-        this.document.majuscules(depart, fin);
+        this.document.effacer(depart, fin);
         super.executer();
     }
 }
