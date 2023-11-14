@@ -7,7 +7,11 @@ public class Document {
     public Document() {
         this.texte = "";
     }
-	
+
+    /**
+     * cc
+     * @return
+     */
     public String getTexte() {
         return texte;
     }
